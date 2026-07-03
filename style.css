@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+     background-color:  darkblue;
+}
+
+#two{
+    text-decoration: underline;
+    margin-top: 1rem;
+    color: rgb(47, 130, 47);
+    font-size: 4rem;
+}
+#one{
+    color: white;
+    font-size:3rem;
+}
+#copy {
+    font-size: 3rem;
+    color: white;
+    margin-left: 15px;
+}
+
+input{
+    height: 80px;
+    width: 500px;
+    font-size: xx-large;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    border: none;
+}
+button{
+    height: 70px;
+    width: 300px;
+    margin: 2rem;
+    text-align: left;
+    font-size: x-large;
+    color: white;
+    padding-left: 1rem;
+    margin-left: 0;
+    border-radius: 1rem;
+    border: none;
+    background-color:rgb(76, 182, 76) ;
+    cursor: pointer;
+    transition: 0.3;
+}
+button:hover{
+    transform:translate(4px);
+
+}
+#copy:hover{
+    color: aqua;
+}
